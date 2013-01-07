@@ -1,4 +1,15 @@
 Diaspura::Application.routes.draw do
+  
+  root :to => "pages#home"
+  match '/home' => "pages#home"
+  match '/schedule' => "pages#schedule"
+  match '/speakers' => "pages#speakers"
+  match '/musical' => "pages#musical"
+  match '/pastevents' => "pages#pastevents"
+  match '/tickets' => "pages#tickets"
+  match '/partners' => "pages#partners"
+  match '/contact' => "pages#contact"
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

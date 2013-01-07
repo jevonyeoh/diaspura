@@ -11,3 +11,16 @@
  *= require_self
  *= require_tree .
 */
+
+p {
+    text-align: center;    
+}
+
+
+
+IMG.displayed
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
