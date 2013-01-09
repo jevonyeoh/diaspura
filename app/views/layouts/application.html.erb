@@ -8,30 +8,38 @@
   <%= csrf_meta_tags %>
 </head>
 
-<body>
-<!-- image -->
-<img src="assets/diaspuralogo.jpg" class="displayed">
-<br>
+<body style="background: maroon">
   
-  <div class="navbar navbar-inverse">  
-    <div class="navbar-inner"> 
-      <div class="container" style="width:60%">  
-    	<ul class="nav">  
-          <li><a href="/home">Home</a></li>
-          <li><a href="/schedule">Schedule</a></li>
-          <li><a href="/speakers">Speakers</a></li>
-          <li><a href="/musical">Musical</a></li>
-          <li><a href="/pastevents">Past Events</a></li>
-          <li><a href="/tickets">Tickets</a></li>
-          <li><a href="/partners">Partners</a></li>
-          <li><a href="/contact">Contact</a></li>
-	<ul class="nav pull-right">				
-        </ul>   
-      </div>  
-    </div>
+<!-- image -->
+<div>
+  <img id="layer1" src="assets/cover1.jpg" style="position:absolute; height:383px; width:1300px">
+</div>
+<div>
+  <img id="layer2" src="assets/diaspuralogo.jpg" class="displayed" style="align:middle">
+</div>
+  
+  <div class="container" style="background:white; opacity:0.95; margin: 0 auto; padding-top: 65px">  
+    <div class="navbar">  
+      <ul class="nav">
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a></a></li>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/schedule">Schedule</a></li>
+        <li><a href="/speakers">Speakers</a></li>
+        <li><a href="/musical">Musical</a></li>
+        <li><a href="/pastevents">Past Events</a></li>
+        <li><a href="/tickets">Tickets</a></li>
+        <li><a href="/partners">Partners</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>   
+    </div>  
   </div>
 
 <%= yield %>
+
+
 
 </body>
 </html>
