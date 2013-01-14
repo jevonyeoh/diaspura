@@ -22,4 +22,10 @@ class PagesController < ApplicationController
   
   def contact
   end
+  
+  def todo
+  end
+  
+  def about
+  end
 end

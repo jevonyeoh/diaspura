@@ -34,10 +34,22 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'motor_oil_1937_m54regular';
+    src: url('motor_oil_1937_m54-webfont.eot');
+    src: url('motor_oil_1937_m54-webfont.eot?#iefix') format('embedded-opentype'),
+         url('motor_oil_1937_m54-webfont.woff') format('woff'),
+         url('motor_oil_1937_m54-webfont.ttf') format('truetype'),
+         url('motor_oil_1937_m54-webfont.svg#motor_oil_1937_m54regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 p {
     text-align: justify;
     padding: 10px;
-    font-family: KelmscottRomanRegular;
+    font-family: Arial;
 }
 
 IMG.displayed
@@ -45,7 +57,7 @@ IMG.displayed
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.7;
+    opacity: 0.8;
     position: relative;
     top: 30px
 }
