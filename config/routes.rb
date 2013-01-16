@@ -11,6 +11,7 @@ Diaspura::Application.routes.draw do
   match '/contact' => "pages#contact"
   match '/todo' => "pages#todo"
   match '/about' => "pages#about"
+  match '/directions' => "pages#directions"
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

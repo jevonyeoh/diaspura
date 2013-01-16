@@ -28,4 +28,7 @@ class PagesController < ApplicationController
   
   def about
   end
+  
+  def directions
+  end
 end
