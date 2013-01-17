@@ -57,7 +57,7 @@ IMG.displayed
     display: block;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.8;
+    opacity: 0.75;
     position: relative;
     top: 30px
 }
