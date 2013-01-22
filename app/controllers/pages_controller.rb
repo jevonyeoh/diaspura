@@ -31,4 +31,7 @@ class PagesController < ApplicationController
   
   def directions
   end
+  
+  def donors
+  end
 end

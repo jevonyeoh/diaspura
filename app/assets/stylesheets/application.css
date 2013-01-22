@@ -61,6 +61,7 @@ IMG.displayed
     position: relative;
     top: 30px
 }
+
 #layer1
 {
    z-index: 10;
