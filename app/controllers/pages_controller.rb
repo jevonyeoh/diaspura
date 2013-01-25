@@ -34,4 +34,7 @@ class PagesController < ApplicationController
   
   def donors
   end
+  
+  def thanks
+  end
 end
