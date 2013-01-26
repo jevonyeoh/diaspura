@@ -14,12 +14,13 @@
 //= require jquery_ujs
 //= require_tree .
 
-
-$('#hideshow').toggle(function() {
-	$('#hideshow').text('Show');
-		$('#message').hide();
-	}, function() {
-		$('#hideshow').text('Hide');
-		$('#message').show();
-	}
+$('#hideshow').toggle(
+    function() {
+        $('#hideshow').text('Show');
+        $('#message').hide();
+    }, function() {
+        $('#hideshow').text('Hide');
+        $('#message').show();
+    }
 );
+
