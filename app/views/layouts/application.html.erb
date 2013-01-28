@@ -12,61 +12,74 @@
 
 <body style="background: #AA1F1F">
 
-<!-- image -->
-<div>
-  <img id="layer1" src="assets/cover_skyline_1.jpg" style="position:absolute; height:400px; width: 100%; text-align:center">
-</div>
-<div>
-  <a href="/home">
-    <img id="layer2" src="assets/diaspura-logo-white3.png" class="displayed" style="align:middle">
-  </a>
-</div>
-  
-  <div id="layer3" class="container" style="background:white; opacity:0.75; margin: 0 auto; position: relative; top:30px;
-    width: 750px">  
-    <div class="navbar">
-      <ul class="nav" style="font-family: motor_oil_1937_m54regular" >
-        <li class="dropdown">
-          <a href="/schedule" class="dropdown-toggle" data-toggle="dropdown">
-            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-            SCHEDULE
-            <b class="caret"></b>
-          </a>
-          <ul class="dropdown-menu" style="opacity: 1">
-            <li><a href="/schedule" style="font-size: 80%">&nbsp&nbspPROGRAM</a></li>
-            <li><a href="/directions" style="font-size: 80%">&nbsp&nbspDIRECTIONS</a></li>
-            <li><a href="/todo" style="font-size: 80%">&nbsp&nbspWHAT TO DO</a></li>
-          </ul>
-        </li>
-        <li><a href="/speakers">&nbsp&nbspSPEAKERS</a></li>
-        <li><a href="/musical">&nbsp&nbspMUSICAL</a></li>
-        <li><a href="/tickets">&nbsp&nbspTICKETS</a></li>
-        <li><a href="/pastevents">&nbsp&nbspPAST</a></li>
-        <li><a href="/partners">&nbsp&nbspPARTNERS</a></li>
-        <li><a href="/contact">&nbsp&nbspCONTACT</a></li>
-      </ul>   
-    </div>  
+  <!-- image -->
+  <div>
+    <img id="layer1" src="assets/cover_skyline_1.jpg" style="position:absolute; height:400px; width: 100%; text-align:center">
   </div>
+  <div>
+    <a href="/home">
+      <img id="layer2" src="assets/diaspura-logo-white3.png" class="displayed" style="align:middle">
+    </a>
+  </div>
+    
+    <div id="layer3" class="container" style="background:white; opacity:0.75; margin: 0 auto; position: relative; top:30px;
+      width: 750px">  
+      <div class="navbar">
+        <ul class="nav" style="font-family: motor_oil_1937_m54regular" >
+          <li class="dropdown">
+            <a href="/schedule" class="dropdown-toggle" data-toggle="dropdown">
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              SCHEDULE
+              <b class="caret"></b>
+            </a>
+            <ul class="dropdown-menu" style="opacity: 1">
+              <li><a href="/schedule" style="font-size: 80%">&nbsp&nbspPROGRAM</a></li>
+              <li><a href="/directions" style="font-size: 80%">&nbsp&nbspDIRECTIONS</a></li>
+              <li><a href="/todo" style="font-size: 80%">&nbsp&nbspWHAT TO DO</a></li>
+            </ul>
+          </li>
+          <li><a href="/speakers">&nbsp&nbspSPEAKERS</a></li>
+          <li><a href="/musical">&nbsp&nbspMUSICAL</a></li>
+          <li><a href="/tickets">&nbsp&nbspTICKETS</a></li>
+          <li><a href="/pastevents">&nbsp&nbspPAST</a></li>
+          <li><a href="/partners">&nbsp&nbspPARTNERS</a></li>
+          <li><a href="/contact">&nbsp&nbspCONTACT</a></li>
+        </ul>   
+      </div>  
+    </div>
+    
+  <%= yield %>
   
-<%= yield %>
-
-<!-- bottom links -->
-<div class="container" style="background:white; width: 750px;">
-  <div class="row-fluid">
-    <div class="span12">
-      <p style="text-align: center; font-size: 75%">
-        <a href="/schedule">PROGRAM</a> &nbsp|&nbsp 
-        <a href="/directions">DIRECTIONS</a> &nbsp|&nbsp
-        <a href="/todo">PENN TO DOS</a> &nbsp|&nbsp
-        <a href="/tickets">TICKETS</a> &nbsp|&nbsp
-        <a href="/partners">PARTNERS</a> &nbsp|&nbsp
-        <a href="/contact">CONTACT</a> &nbsp|&nbsp
-        <a href="/about">ClubSG</a>
-      </p>
+  <!-- bottom links -->
+  <div class="container" style="background:white; width: 750px;">
+    <div class="row-fluid">
+      <div class="span12">
+        <p style="text-align: center; font-size: 75%">
+          <a href="/schedule">PROGRAM</a> &nbsp|&nbsp 
+          <a href="/directions">DIRECTIONS</a> &nbsp|&nbsp
+          <a href="/todo">PENN TO DOS</a> &nbsp|&nbsp
+          <a href="/tickets">TICKETS</a> &nbsp|&nbsp
+          <a href="/partners">PARTNERS</a> &nbsp|&nbsp
+          <a href="/contact">CONTACT</a> &nbsp|&nbsp
+          <a href="/about">ClubSG</a>
+        </p>
+      </div>
     </div>
   </div>
-</div>
 
+  <script type="text/javascript">
+    
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38011175-1']);
+    _gaq.push(['_trackPageview']);
+    
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    
+  </script>
 
 </body>
 </html>
